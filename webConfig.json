@@ -1,0 +1,5 @@
+{
+  "siteURL": "http://localhost:3000",
+  "environment": "development",
+  "port": 3000
+}
