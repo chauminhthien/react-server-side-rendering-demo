@@ -7,6 +7,7 @@ import Home from './../modules/home';
 import About from './../modules/about';
 import Services from './../modules/services';
 import Contact from './../modules/contact';
+import TestApi from './../modules/testApi';
 
 class Content extends React.Component {
 
@@ -17,6 +18,7 @@ class Content extends React.Component {
         <Route path="/about.html" render={ () => <About /> } />
         <Route path="/services.html" render={ () => <Services /> } />
         <Route path="/contact.html" render={ () => <Contact /> } />
+        <Route path="/test.html" render={ () => <TestApi /> } />
       </Switch>
 
     );

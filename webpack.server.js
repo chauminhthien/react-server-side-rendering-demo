@@ -9,8 +9,7 @@ module.exports = {
   // Inform webpack that we're building a bundle
   // for nodeJS, rather then for the browser
   target: 'node',
-
-  entry: "./server.js",
+  entry: ['babel-polyfill', "./server.js"],
 
   output: {
     filename: "server.js",

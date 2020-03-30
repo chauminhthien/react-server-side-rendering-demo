@@ -6,7 +6,7 @@ const webConfig = require('./webConfig');
 module.exports = {
   mode: webConfig.environment,
 
-  entry: "./src/Client.js",
+  entry: ['babel-polyfill', "./src/Client.js"],
 
   devtool: "cheap-module-source-map",
 
